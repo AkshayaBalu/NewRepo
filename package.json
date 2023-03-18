@@ -1,0 +1,20 @@
+{
+  "name": "addressbook",
+  "version": "1.0.0",
+  "description": "basic CRUD app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "start": "node index.js",
+    "qa": "npm start",
+    "prod": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1"
+  }
+}
